@@ -50,7 +50,7 @@ RSpec.configure do |c|
             :node => vm)
       shell(:command => 'puppet module install --version ">=1.4.0 <2.0.0" puppetlabs/apt',
             :node => vm)
-      shell(:command => 'puppet module install --version ">=1.2.1 <2.0.0" puppetlabs/concat',
+      shell(:command => 'puppet module install --version ">=1.2.1 <3.0.0" puppetlabs/concat',
             :node => vm)
       shell(:command => 'puppet module install --version ">=1.4.1 <2.0.0" puppetlabs/apache',
             :node => vm)
