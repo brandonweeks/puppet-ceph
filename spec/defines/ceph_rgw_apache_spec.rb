@@ -38,6 +38,7 @@ describe 'ceph::rgw::apache' do
         :osfamily               => 'Debian',
         :operatingsystem        => 'Ubuntu',
         :operatingsystemrelease => '12.04',
+        :lsbdistid              => 'Ubuntu',
         :lsbdistcodename        => 'precise',
         :pkg_fastcgi            => 'libapache2-mod-fastcgi',
       }
