@@ -26,6 +26,7 @@ describe 'ceph::repo' do
     let :facts do
     {
       :osfamily        => 'Debian',
+      :lsbdistid       => 'Debian',
       :lsbdistcodename => 'wheezy',
     }
     end
@@ -66,6 +67,7 @@ describe 'ceph::repo' do
     let :facts do
     {
       :osfamily        => 'Debian',
+      :lsbdistid       => 'Ubuntu',
       :lsbdistcodename => 'precise',
       :hardwaremodel   => 'x86_64',
     }
